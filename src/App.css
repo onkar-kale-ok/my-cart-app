@@ -1,0 +1,60 @@
+ .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.customButton {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+ 
+ .options {
+display: flex
+}
+
+
+
+.box {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 4px solid green
+}
+
+.pageTitle  {
+  text-align: center; 
+  color: green;
+}
+
+.roundedButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px; /* Adjust the border-radius to control the roundness */
+  background-color: #4285f4; /* Button background color */
+  color: #fff; /* Text color */
+  cursor: pointer;
+  /* Additional styles for the button */
+}
+
+/* .options {
+  display: none;
+}
+
+.colorOptions,
+.sizeOptions {
+} */ 
